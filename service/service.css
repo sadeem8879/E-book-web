@@ -1,0 +1,173 @@
+.service-container {
+    background:
+        linear-gradient(to bottom right, transparent 100%, black 100%),
+        linear-gradient(to top left, transparent 0%, black 100%),
+        url('../image/service-bg.jpg');
+
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    max-width: 100% !important;
+    background-size: cover;
+    height: 80vh;
+    opacity: 0.9 !important;
+}
+
+.service-btn {
+    background-color: black;
+    color: #fff;
+    border: 2px solid #606c38;
+    border-radius: 50px;
+    margin-left: 460px !important;
+    transition: all 0.4ms ease-in-out;
+}
+
+.service-btn:hover {
+    background-color: #606c38;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.service-heading {
+    margin-top: 130px !important;
+    font-size: 59px;
+    font-weight: 900;
+}
+
+.services-card-1 {
+    margin-left: -15px;
+}
+
+.services-card-1-1 {
+    margin-left: -150px;
+}
+
+.sevices {
+    margin-top: -200px;
+}
+
+
+
+.button2 {
+    color: #fff;
+    background-color: #0077b6;
+    /* Fallback color */
+    background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+    border: 6px solid rgba(204, 241, 255, 0.5);
+    border-radius: 33px;
+    transition: background-color 0.4s, transform 0.3s, box-shadow 0.3s;
+    /* Smooth transition */
+    padding: 10px 20px;
+    font-size: 16px;
+    /* Adjust font size */
+    cursor: pointer;
+    /* Pointer on hover */
+    margin-left: 70px;
+}
+
+.button2:hover {
+    background-image: linear-gradient(to right, #004e92 0%, #3a607e 51%, #0077b6 100%);
+    /* Darker gradient */
+    color: #fff;
+    /* Keep text white */
+    border: 6px solid #fff;
+    /* Change border color on hover */
+    box-shadow: 0 4px 20px rgba(0, 119, 182, 0.6);
+    /* Add shadow for depth */
+    transform: translateY(-3px);
+    /* Lift effect */
+}
+
+.services-card {
+    margin-top: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 230px !important;
+}
+
+.services-card:hover {
+    box-shadow: 0px 4px 20px rgba(8, 157, 161, 0.6);
+    transform: translateY(-5px);
+}
+.login-form-container-3.active {
+    right: 0 !important; /* Show when active */
+}
+
+.login-form-container-3 form {
+    background: #fff;
+    border: var(--border);
+    width: 40rem;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    margin: 2rem;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.login-form-container-3 form h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.login-form-container-3 form span {
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.login-form-container-3 form .box {
+    width: 100%;
+    margin: 0.7rem 0;
+    font-size: 1.6rem;
+    border: var(--border);
+    border-radius: 0.5rem;
+    padding: 1rem 1.2rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.login-form-container-3 form .check-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.login-form-container-3 form .check-box label {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+.login-form-container-3 form .btn {
+    text-align: center;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.login-form-container-3 form p {
+    padding-top: 0.8rem;
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.login-form-container-3 form p a {
+    text-decoration: underline;
+    color: var(--blue);
+}
+
+.login-form-container-3 #close-login-btn-2 {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 5rem;
+    cursor: pointer;
+}
+.x-btn{
+  margin-top: 1945px !important;
+  margin-right: 440px;
+}

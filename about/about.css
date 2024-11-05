@@ -1,0 +1,395 @@
+.about-heading {
+    margin-top: 100px !important;
+    /* font-size: x !important; */
+}
+
+.about-heading-sub-text {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.about-btn {
+    color: #fff !important;
+    background-color: #a8bac4 !important;
+    background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%) !important;
+    border: 6px solid rgba(204, 241, 255, 0.5) !important;
+    border-radius: 33px !important;
+    transition: 1s !important;
+    /* position: absolute;
+        top: 0; */
+    /* margin-top: 400px !important; */
+    margin-left: 150px !important;
+    /* width: 16%; */
+}
+
+/* Apply the zoom effect on images within the swiper slide */
+.swiper-slide,
+review img {
+    /* transition: transform 0.3s ease; Smooth zoom transition */
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.swiper-slide-1:hover,
+.reviews-1:hover img {
+    transform: scale(1.1) !important;
+    overflow: hidden;
+    overflow-x: hidden !important;
+}
+
+.card {
+    overflow: hidden;
+}
+
+
+.about-btn:hover {
+    color: linear-gradient(to right, #6fbcfe 100%, #998dff 51%, #6fbcfe 10%) !important;
+    background-color: transparent !important;
+    background-color: #fff !important;
+    /* border: 3px solid # !important; */
+}
+
+.about-team-text {
+    margin-left: 180px !important;
+    margin-right: 140px !important;
+    color: #6b7d8e;
+}
+
+.about-card-text {
+    color: #707070 !important;
+    font-size: 18px !important;
+}
+
+.quection .main-topic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.quection .main-topic h2 {
+    font-size: 2.7rem;
+    color: #111117;
+    font-weight: 500;
+}
+
+.quection .main-quection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.quection .main-quection .col-6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quection .main-quection .col-6 i {
+    font-size: 3rem;
+    color: #ff6600;
+    padding-bottom: 2rem;
+}
+
+.quection .main-quection .col-6 h4 {
+    font-size: 1.3rem;
+    color: #111117;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+*----- login form start --------*/
+
+/* .login-form-container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.9) !important;
+    position: fixed !important;
+    top: 0% !important;
+    right: -105%;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+}
+
+.login-form-container-2.active{
+    right: 0;
+}
+
+.login-form-container-2 form{
+    background: #fff;
+    border: var(--border);
+    width: 40rem;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin: 2rem;
+}
+
+.login-form-container-2 form h3{
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.login-form-container-2 form span{
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.login-form-container-2 form .box{
+    width: 100%;
+    margin: 0.7rem 0;
+    font-size: 1.6rem;
+    border: var(--border);
+    border-radius: 0.5rem;
+    padding: 1rem 1.2rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.login-form-container-2 form .check-box{
+    display: flex;
+    align-items:center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.login-form-container-2 form .check-box label{
+    font-size: 1.5rem;
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+.login-form-container-2 form .btn{
+    text-align: center;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.login-form-container-2 form p{
+    padding-top: .8rem;
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.login-form-container-2 form p a{
+    text-decoration: underline;
+    color: var(--blue);
+}
+
+.login-form-container-2 #close-login-btn-2{
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size:5rem;
+    cursor: pointer;
+} */
+.login-form-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    right: -105%;
+    /* Hidden by default */
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+}
+
+.login-form-container-2.active {
+    right: 0 !important;
+    /* Show when active */
+}
+
+.login-form-container-2 form {
+    background: #fff;
+    border: var(--border);
+    width: 40rem;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    margin: 2rem;
+    margin-left: 500px;
+}
+
+.login-form-container-2 form h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.login-form-container-2 form span {
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.login-form-container-2 form .box {
+    width: 100%;
+    margin: 0.7rem 0;
+    font-size: 1.6rem;
+    border: var(--border);
+    border-radius: 0.5rem;
+    padding: 1rem 1.2rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.login-form-container-2 form .check-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.login-form-container-2 form .check-box label {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+.login-form-container-2 form .btn {
+    text-align: center;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.login-form-container-2 form p {
+    padding-top: 0.8rem;
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.login-form-container-2 form p a {
+    text-decoration: underline;
+    color: var(--blue);
+}
+
+.login-form-container-2 #close-login-btn-2 {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+.x-btn {
+    margin-top: 2215px;
+    margin-right: 440px;
+}
+
+.bg-black {
+    max-width: 100% !important;
+}
+
+.about-black-heading {
+    font-size: 35px !important;
+    margin-top: 20px;
+}
+
+.about-black-sm-text {
+    font-size: 15px;
+    margin: 10px 150px;
+}
+
+.about-btn-2 {
+    padding: 10px 30px;
+    font-size: 14px !important;
+    border-radius: 33px !important;
+    margin-bottom: 20px;
+}
+
+.about-btn-2:hover {
+    background-color: black !important;
+    color: #fff !important;
+    border: 2px solid #fff;
+}
+
+.sevices {
+    width: 100%;
+    height: auto;
+    /* margin: 35px 0; */
+}
+
+.sevices .services-box {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sevices .services-box .services-card {
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0px 0px 8px #089da1;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+    padding: 15px 10px;
+}
+
+.sevices .services-box .services-card i {
+    color: #089da1;
+    font-size: 45px;
+    margin-bottom: 15px;
+    cursor: pointer !important;
+}
+
+.sevices .services-box .services-card h3 {
+    margin-bottom: 10px;
+}
+
+.about-card-section {
+    background-color: #edede9;
+    margin-top: 90px;
+    margin-bottom: 80px !important;
+    max-width: 100% !important;
+    padding: 70px;
+}
+
+.card-1-about {
+    margin-left: 130px;
+}
+
+.card-last-text {
+    padding: 0px 99px !important;
+}
+
+.header .header_two {
+    background-color: var(--blue);
+}
+
+.header .header_two .navbar {
+    text-align: center;
+}
+
+.header .header_two .navbar a {
+    color: #fff;
+    display: inline-block;
+    padding: 7px !important;
+    /* font-size: 1.7rem; */
+}
+
+.header .header_two .navbar a:hover {
+    background: var(--dark-color);
+}
+
+.header .header_two.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}

@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!------- swipper cdn link ------------>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header_one">
+      <a href="" class="logo"><i class="fas fa-book"> Bookly</i></a>
+
+      <form action="" class="search-form">
+        <input id="search-box" type="search" placeholder="search here...">
+        <label for="" class="fas fa-search"></label>
+      </form>
+
+      <!-- <div class="icons">
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="" class="fas fa-heart"></a>
+        <a href="" class="fas fa-shopping-cart"></a>
+        <div id="login-btn-1" class="fas fa-user"></div>
+      </div> -->
+      <div class="icons">
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="" class="fas fa-heart text-decoration-none"></a>
+        <a href="" class="fas fa-shopping-cart text-decoration-none"></a>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+    </div>
+
+    <!----- navigation bar -------->
+    <div class="header_two d-flex justify-content-center me-5  w-100  ">
+      <div class="navbar">
+        <a href="../index.html" class=" text-decoration-none  me-3" style="margin-left: -13px !important;">HOME</a>
+        <a href="about.html" class=" text-decoration-none me-3">ABOUT US</a>
+        <a href="../service/service.html" class=" text-decoration-none me-3">SERVICES</a>
+        <a href="../contact/contact.html" class=" text-decoration-none me-3">CONTACT US</a>
+      </div>
+    </div>
+
+  </header>
+
+  <!-------- bottom navbar start ----------->
+  <div class="bottom-navbar">
+    <a href="../index.html" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#blogs" class="fas fa-app-store"></a>
+  </div>
+
+  <!-------- login form start ----------->
+  <div class="login-form-container">
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+      <h3>sign in</h3>
+      <span>email</span>
+      <input type="email" class="box" placeholder="enter your email">
+      <span>password</span>
+      <input type="password" class="box" placeholder="enter your password">
+
+      <div class="check-box">
+        <input type="checkbox" id="remember-me">
+        <label for="remember-me">remember me</label>
+      </div>
+
+      <input type="submit" value="sign in" class="btn">
+      <p>forgot password? <a href="">click here</a></p>
+      <p>dont't have an account ? <a href="">create one</a></p>
+      <p></p>
+    </form>
+  </div>
+
+  <section class="conatiner bg-info">
+    <div class="row">
+      <div class="col-lg-6 ">
+        <img src="/image/about-bg.png" alt="" width="650px" height="500px">
+
+      </div>
+      <div class="col-lg-6 mt-5  ">
+
+        <h1 class="text-center about-heading mb-4 text-white" style="font-size: 43px !important;">About Us</h1>
+        <p class="ms-5 ps-5 about-heading-sub-text text-highlight">Connecting Readers to Worlds Beyond Pages: At Bookly, we believe in
+          the transformative power of reading. Our mission is to bring stories, knowledge, and inspiration to everyone,
+          fostering a community where every reader finds their next adventure.</p>
+        <input type="button" class="btn btn-primary about-btn mt-4 pt-3 pb-3 px-5 pe-5" value="Know More about us ">
+      </div>
+    </div>
+  </section>
+  < <section class="container  mt-5 swiper" id="speaker" ">
+    <h1 class=" text-center">Meet Our Team</h1>
+    <p class=" text-center fs-5 mb-3 pb-4 mt-3 about-team-text">Our team at Bookly unites creativity, technology, and
+      passion to bring you an unmatched reading experience. Meet the people who make it happen!</p>
+    <div id="serviceCarousel" class="carousel slide " data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <div class="row swiper-wrapper ">
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <img src="../image/service-img-1.jpg" class="card-img-top swiper-slide swiper-slide-1" alt="Service 1">
+                <div class="card-body">
+                  <p class="card-text  text-center fs-3 about-card-text">David Yoon</p>
+                  <p class="text-center fs-4">Digital Publishing Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class=" col-lg-3">
+              <div class="card shadow">
+                <img src="../image/service-img-2.jpg" class="card-img-top swiper-slide swiper-slide-1" alt="Service 2">
+                <div class="card-body">
+                  <p class="card-text  text-center fs-3 about-card-text">Je Marly Lee</p>
+                  <p class="text-center fs-4">E-Book Production Lead</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <img src="../image/service-img-3.jpg" class="card-img-top swiper-slide swiper-slide-1" alt="Service 3">
+                <div class="card-body">
+                  <p class="card-text text-center fs-3 about-card-text">Jonathan Doe</p>
+                  <p class="text-center fs-4">Literary Curator</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <img src="../image/service-img-4.jpg" class="card-img-top swiper-slide swiper-slide-1" alt="Service 4">
+                <div class="card-body">
+                  <p class="card-text text-center fs-3 about-card-text">Genny Green</p>
+                  <p class="text-center fs-4">Reading Experience Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row ms-auto">
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <img src="../image/service-img-5.jpg" class="card-img-top swiper-slide swiper-slide-1" alt="Service 5">
+                <div class="card-body">
+                  <p class="card-text text-center fs-3 about-card-text">Elite Hamilton</p>
+                  <p class="text-center fs-4">Marketing guru</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <img src="../image/service-img-1.jpg" class="card-img-top swiper-slide swiper-slide-1" alt="Service 1">
+                <div class="card-body">
+                  <p class="card-text text-center fs-3 about-card-text">David Yoon</p>
+                  <p class="text-center fs-4">Digital Publishing Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <img src="../image/service-img-2.jpg" class="card-img-top swiper-slide swiper-slide-1" alt="Service 1">
+                <div class="card-body">
+                  <p class="card-text text-center fs-3 about-card-text">Je Marly Lee</p>
+                  <p class="text-center fs-4">E-Book Production Lead</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card shadow">
+                <img src="../image/service-img-4.jpg" class="card-img-top swiper-slide swiper-slide-1" alt="Service 4">
+                <div class="card-body">
+                  <p class="card-text text-center fs-3 about-card-text">Genny Green</p>
+                  <p class="text-center fs-4 about-card-">Ui Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev card-btn" type="button" data-bs-target="#serviceCarousel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </section>
+
+      <section class="container about-card-section" >
+        <div class="row w-100">
+          <h1 class="text-center mb-4">Our Journey in Numbers
+          </h1>
+          <div class="col-lg-5 card-1-about">
+            <div class="card w-100 p-3" style="width: 18rem;">
+              <div class="card-body card-about">
+                <h2 class="card-title fw-bold text-center">E-books Digitized
+                </h2>
+                <h5 class="card-subtitle mb-2 text-body-secondary fs-5 mt-2 mb-4 text-center">Growing our digital library
+
+                </h5>
+                <div class="d-flex"><i class="bi bi-phone fs-1 ms-3"></i>
+                  <h1 class="ms-auto me-5">75K</h1>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-success" style="width: 75%"></div>
+                </div>
+                <p class="card-text fs-5 mt-3 fw-semibold me-3">We've digitized 75k books out of our 100k goal, making knowledge more accessible
+                  than ever.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5  ">
+            <div class="card w-100 p-3" style="width: 18rem;">
+              <div class="card-body">
+                <h2 class="card-title fw-bold text-center">Active Readers
+                </h2>
+                <h5 class="card-subtitle mb-2 text-body-secondary fs-5 mt-2 mb-4 text-center">Building a community of book lovers
+                </h5>
+                <div class="d-flex">
+                  <i class="fa-solid fa-user-group fs-1 ms-3"></i>
+                  <h1 class="ms-auto me-5">65K</h1>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-success" style="width: 75%"></div>
+                </div>
+                <p class="card-text fs-5 mt-3 fw-semibold me-3">Our platform has grown to 60k active monthly readers, 60% of our 100k target for
+                  this year.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="fs-4 text-center mt-3 ms-4 card-last-text" style="color: #089da1;"> Since our founding in 2010, we've been on a mission to make literature accessible to everyone, everywhere.
+          Join us as we continue to grow and shape the future of digital reading.</p>
+    </div>
+    </section>
+    <section class="container bg-black text-light w-100 mt-5 text-center ">
+      <div class="row pt-5 pb-5 mt-5 mb-5">
+        <div class="col-lg-12">
+          <h1 class=" text-danger about-black-heading">Ready to Start Your Reading Journey?</h1>
+          <p class="about-black-sm-text">Join a vibrant community of book lovers who have unlocked the world of
+            e-books with BookVerse. Find your next
+            favorite story and dive into endless reading journeys with just a click.</p>
+          <div>
+            <input type="button" id="btn-sign-up-1  " value="Sign Up Now" onclick="sign()"
+              class="btn bg-danger text-black pt-3 pb-3   ps-5 pe-5 about-btn-2">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- for sign up btn -->
+    <div class="login-form-container-2 " style="display: none;"> <!-- Initially hidden -->
+      <div id="close-login-btn-2" class="fas fa-times x-btn" onclick="closeLoginForm()"></div>
+      <form action="">
+        <h3>sign in</h3>
+        <span>email</span>
+        <input type="email" class="box" placeholder="enter your email">
+        <span>password</span>
+        <input type="password" class="box" placeholder="enter your password">
+        <div class="check-box">
+          <input type="checkbox" id="remember-me">
+          <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forgot password? <a href="">click here</a></p>
+        <p>don't have an account? <a href="">create one</a></p>
+      </form>
+    </div>
+    <!-- for login icon -->
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+
+      <form action="">
+        <h3>sign in</h3>
+        <span>email</span>
+        <input type="email" class="box" placeholder="enter your email">
+        <span>password</span>
+        <input type="password" class="box" placeholder="enter your password">
+
+        <div class="check-box">
+          <input type="checkbox" id="remember-me">
+          <label for="remember-me">remember me</label>
+        </div>
+
+        <input type="submit" value="sign in" class="btn">
+        <p>forgot password? <a href="">click here</a></p>
+        <p>dont't have an account ? <a href="">create one</a></p>
+        <p></p>
+      </form>
+    </div>
+
+
+    <!-- <section class="reviews " id="reviews" >
+    <h1 class="heading mt-5 pt-5 mb-5"><span>client's reviews</span></h1>
+
+    <div class="swiper reviews-slider ">
+      <div class="swiper-wrapper ">
+
+        <div class="swiper-slide box shadow">
+          <img src="../image/pic-1.png" alt="" >
+          <h3>john deo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eligendi amet recusandae perferendis cumque
+            nesciunt.
+          </p>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="swiper shadow">
+          <img src="../image/pic-2.png" alt="">
+          <h3>john deo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eligendi amet recusandae perferendis cumque
+            nesciunt.
+          </p>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="swiper-slide box shadow">
+          <img src="../image/pic-3.png" alt="">
+          <h3>john deo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eligendi amet recusandae perferendis cumque
+            nesciunt.
+          </p>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="swiper-slide box shadow">
+          <img src="../image/pic-4.png" alt="">
+          <h3>john deo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eligendi amet recusandae perferendis cumque
+            nesciunt.
+          </p>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="swiper-slide box shadow">
+          <img src="../image/pic-5.png" alt="">
+          <h3>john deo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eligendi amet recusandae perferendis cumque
+            nesciunt.
+          </p>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="swiper-slide box shadow">
+          <img src="../image/pic-6.png" alt="">
+          <h3>john deo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eligendi amet recusandae perferendis cumque
+            nesciunt.
+          </p>
+
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section> -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>our locations</h3>
+          <a href=""><i class="fas fa-map-marker-alt"></i>india</a>
+          <a href=""><i class="fas fa-map-marker-alt"></i>USA</a>
+          <a href=""><i class="fas fa-map-marker-alt"></i>russia</a>
+          <a href=""><i class="fas fa-map-marker-alt"></i>france</a>
+          <a href=""><i class="fas fa-map-marker-alt"></i>japan</a>
+          <a href=""><i class="fas fa-map-marker-alt"></i>africa</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href=""><i class="fas fa-arrow-right"></i>home</a>
+          <a href=""><i class="fas fa-arrow-right"></i>featured</a>
+          <a href=""><i class="fas fa-arrow-right"></i>arrivals</a>
+          <a href=""><i class="fas fa-arrow-right"></i>blogs</a>
+        </div>
+
+        <div class="box">
+          <h3>exatra links</h3>
+          <a href=""><i class="fas fa-arrow-right"></i>account info</a>
+          <a href=""><i class="fas fa-arrow-right"></i>ordered items</a>
+          <a href=""><i class="fas fa-arrow-right"></i>privacy policy</a>
+          <a href=""><i class="fas fa-arrow-right"></i>payment method</a>
+          <a href=""><i class="fas fa-arrow-right"></i>our services</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href=""><i class="fas fa-phone"></i>+123-356-546</a>
+          <a href=""><i class="fas fa-phone"></i>+123-356-546</a>
+          <a href=""><i class="fas fa-envelope"></i>john@gmail.com</a>
+          <img src="./image/worldmap.png" alt="" class="map">
+        </div>
+      </div>
+
+      <div class="share">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-linkedin"></i></a>
+        <a href=""><i class="fa fa-square-pinterest"></i></a>
+      </div>
+
+      <div class="credit">created by <span>CodeSlaves Design</span> | all rights reserved</div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
